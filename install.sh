@@ -54,6 +54,8 @@ createLink $ROOT/config/redshift.conf $HOME/.config/redshift.conf
 
 ### Settings for bash
 createLink $ROOT/shell/.bashrc $HOME/.bashrc
+createLink $ROOT/shell/.bash_functions $HOME/.bash_functions
+createLink $ROOT/shell/.bash_aliases $HOME/.bash_aliases
 createLink $ROOT/shell/.tmux.conf $HOME/.tmux.conf
 tmux source ~/.tmux.conf
 

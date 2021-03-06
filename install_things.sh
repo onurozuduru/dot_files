@@ -2,7 +2,7 @@
 
 PWD=$(pwd -P)
 
-COMMANDS_LIST=('curl' 'wget' 'git' 'redshift' 'redshift-gtk' 'ffmpeg' 'gufw' 'ctags' 'tmux' 'xsel' 'clang-tools' 'clang-tidy' 'clang-format' 'ccache' 'gdb' 'autoconf' 'doxygen' 'gcc' 'g++' 'make' 'cmake')
+COMMANDS_LIST=('curl' 'wget' 'git' 'redshift' 'redshift-gtk' 'ffmpeg' 'gufw' 'ctags' 'tmux' 'xsel' 'clang-tools' 'clang-tidy' 'clang-format' 'ccache' 'gdb' 'autoconf' 'doxygen' 'gcc' 'g++' 'make' 'cmake' 'batcat')
 NOT_FOUND=()
 PACKAGES_LIST=('build-essential' 'python-pip' 'python3-dev' 'autotools-dev' 'libboost-all-dev' 'software-properties-common' 'openssh-client' 'imagemagick')
 PIP_LIST=('cpplint' 'cppclean' 'pynvim' 'python-language-server' 'ipython')
