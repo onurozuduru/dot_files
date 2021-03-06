@@ -17,11 +17,12 @@ print_help() {
 ##TODO I am a template! Modify the below line!
     echo "Usage: $0 [ -x ARG1 ] [-hb]"
 ##TODO I am a template! Modify the below line!
-    echo ""                                   #Definition of the script
+# Definition of the script.
+    echo "Some definition"
 ##TODO I am a template! Modify the below lines!
-    echo -e "-h,\t--help\tDisplay help."
-    echo -e "-x,\t--xx\tDo something with ARG1." #double dash arg
-    echo -e "-b,\t\tDo something."               #single dash arg
+    echo "\t-h,--help\tDisplay help."
+    echo "\t-x,--xx\tDo something with ARG1." #double dash arg
+    echo "\t-b\t\tDo something."               #single dash arg
 }
 
 ##TODO I am a template! Modify the below lines!
