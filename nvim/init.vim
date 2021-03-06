@@ -76,6 +76,8 @@ Plug 'preservim/nerdtree'
 " Go plugin
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug  'wellle/targets.vim'
+" Highlight for DockerFile
+Plug 'ekalinin/Dockerfile.vim'
 call plug#end()            " required
 " }}}
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
