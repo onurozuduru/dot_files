@@ -1,6 +1,5 @@
-# Goes up a specified number of directories  (i.e. up 4)
-up ()
-{
+# Goes up a specified number of directories  (e.g. up 4)
+up () {
     local d=""
     limit=$1
     for ((i=1 ; i <= limit ; i++))
