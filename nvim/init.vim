@@ -78,6 +78,8 @@ Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug  'wellle/targets.vim'
 " Highlight for DockerFile
 Plug 'ekalinin/Dockerfile.vim'
+" Highlight xml/html tag
+Plug 'gregsexton/matchtag'
 call plug#end()            " required
 " }}}
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -605,3 +607,15 @@ au FileType vim setlocal foldmethod=marker
 " }}}
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Xml settings {{{
+autocmd BufRead,BufNewFile *.xml call XmlSettings()
+function! XmlSettings()
+    set syntax=xml
+    setl expandtab
+    setl shiftwidth=2
+    setl tabstop=2
+    setl softtabstop=2
+endfunction
+" }}}
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
